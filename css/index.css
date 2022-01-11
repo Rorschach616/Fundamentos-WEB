@@ -1,0 +1,40 @@
+#menu{
+
+background-color: rgb(150, 0, 209);
+background-image: url(../img/menu.jpg);
+}
+
+a{
+color: darkgoldenrod
+
+
+}
+#h{
+
+
+}
+
+#v{
+
+
+}
+
+#logo{
+text-align: center;
+}
+
+
+#fundo{
+
+position: absolute;
+z-index: -1;
+filter: blur(10px);
+
+}
+
+#gif{
+margin-top: -275px;
+margin-left: 100px;
+
+}
+
