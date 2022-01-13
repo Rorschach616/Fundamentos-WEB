@@ -16,9 +16,35 @@
         
     </div>
     <div id="logo"><img  width="900px" src="img/logo.png"></div>
-    
+  
+    <h1 id="ctt">Contato</h1>
+
+
+    <div id="form">
+<form>
+<label for="nome">Nome: </label>
+<input type="text" id="nome" onkeyup='validaNome()'>
+<div id = "alertNome"></div>
+
+<br>
+
+<label for="email">Email: </label>
+<input type="email" id="email"  onkeyup='validaEmail()'>
+<div id = "alertEmail"></div>
+<br>
+
+<label for="assunto">Assunto: </label>
+<br>
+<textarea name="assunto" id="assunto" cols="60" rows="5" onkeydown='validaAssunto()'></textarea>
+<div id = "alertAssunto"></div>
+<br>
+<button onclick='enviar()'>Enviar</button>
+</form>
+
+    </div>
     
     <img id="gif" width="1000px" src="img/gif.gif">
 </div>
+<script src="/script/index.js"></script>
 </body>
 </html>
