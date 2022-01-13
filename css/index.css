@@ -19,6 +19,16 @@ color: darkgoldenrod
 
 }
 
+label{
+text-align: left;
+    color: white;
+}
+
+#ctt{
+color: white;
+}
+
+
 #logo{
 text-align: center;
 }
@@ -35,6 +45,7 @@ filter: blur(10px);
 #gif{
 margin-top: -275px;
 margin-left: 100px;
-
+z-index: -1;
+position: absolute;
 }
 
